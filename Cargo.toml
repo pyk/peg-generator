@@ -1,0 +1,11 @@
+[package]
+name = "peg-generator"
+version = "0.1.0"
+authors = ["Bayu Aldi Yansyah <bayualdiyansyah@gmail.com>"]
+build = "build.rs"
+
+[build-dependencies]
+peg = { version = "0.5.4" }
+
+[dependencies]
+

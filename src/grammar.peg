@@ -1,0 +1,2 @@
+pub program -> String
+    = n:$("hello world") { n.to_string() }
